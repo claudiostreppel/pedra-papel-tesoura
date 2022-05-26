@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>jogo Pedra, Papel ou Tesoura</title>
+</head>
+
+<body>
+    <header>
+        <h1>Jogo Pedra, Papel ou Tesoura</h1>
+    </header>
+    <main>
+
+        <div class="frase">
+            <p>Escolha uma das opções e Boa Sorte !</p>
+        </div>
+
+        <div class="jogadas">
+            <button id="botaoPedra"> <img src="./img/pedra.png"></button>
+            <button id="botaoPapel"> <img src="./img/papel.png"></button>
+            <button id="botaoTesoura"> <img src="./img/tesoura.png"></button>
+        </div>
+
+
+        <div class="placar">
+            <div id="frase-escolhas"></div>
+            <div id="frase-resultado"></div>
+            <div class='placar'>
+                <span class="letreiro"> Você</span> <span id="placar-usuario"></span> : <span
+                    id="placar-computador"></span>
+                <span class="letreiro"> Comp </span>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+    <footer></footer>
+</body>
+
+</html>

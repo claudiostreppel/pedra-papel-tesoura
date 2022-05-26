@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4e5057;
+}
+
+p {
+    font-size: 1.3rem;
+    color: orange;
+}
+
+header {
+    background: gold;
+    padding: 20px;
+}
+
+.frase {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+
+
+}
+
+.jogadas {
+    display: flex;
+    justify-content: center
+}
+
+.placar {
+    color: orange;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 2rem;
+}
+
+#placar-usuario {
+    color: green;
+    font-size: 2.0rem;
+}
+
+#placar-computador {
+    color: green;
+    font-size: 2.0rem;
+}
+
+#frase-escolhas {
+    margin-top: 25px;
+    font-size: 1.3rem;
+}
+
+#frase-resultado {
+    margin-top: 25px;
+    font-size: 1.3rem
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    h1 {
+        text-align: center;
+        font-size: 4rem;
+        margin-bottom: 2rem;
+
+    }
+
+    p {
+        font-size: 3.0rem;
+        color: orange;
+    }
+
+    .placar {
+        color: orange;
+        text-align: center;
+        margin-top: 15px;
+        font-size: 5rem;
+    }
+
+    #placar-usuario {
+        color: green;
+        font-size: 8rem;
+    }
+
+    #placar-computador {
+        color: green;
+        font-size: 8rem;
+    }
+
+    #frase-escolhas {
+        margin-top: 15px;
+        font-size: 3.0rem;
+    }
+
+    #frase-resultado {
+        margin-top: 15px;
+        font-size: 3.0rem
+    }
+
+    .frase {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 3.0rem;
+    }
+
+}
